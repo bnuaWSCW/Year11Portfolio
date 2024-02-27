@@ -7,12 +7,12 @@ body {
 }
 
 .topnav {
-    background-color: #2a3338;
+    background-color: #1d1e1f;
     overflow: hidden;
     font-size: large;
   }
   
-  .topnav a {
+.topnav a {
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -21,16 +21,20 @@ body {
     font-size: 30px;
   }
   
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #ddd;
     color: #3e4c55;
   }
   
-  .topnav a.active {
+.topnav a.active {
     background-color: #f3f3f3;
     color: #3e4c55;
   }
 
-  h1, h2 {
+h2 {
     color: #f3f3f3;
   }
+
+h1 {
+    color: white;
+}
