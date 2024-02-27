@@ -23,6 +23,6 @@ p {
   }
   
   .topnav a.active {
-    background-color: #DC9D82;
-    color: white;
+    background-color: #f3f3f3;
+    color: #3e4c55;
   }
