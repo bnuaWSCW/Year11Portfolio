@@ -1,5 +1,9 @@
 p {
-    color:#3e4c55
+    color:#ffffff
+}
+
+body {
+    background-color: #3e4c55
 }
 
 .topnav {
@@ -25,4 +29,8 @@ p {
   .topnav a.active {
     background-color: #f3f3f3;
     color: #3e4c55;
+  }
+
+  .h1 {
+    color: #f3f3f3;
   }
