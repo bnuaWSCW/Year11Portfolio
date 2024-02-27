@@ -7,7 +7,7 @@ body {
 }
 
 .topnav {
-    background-color: #3e4c55;
+    background-color: #2a3338;
     overflow: hidden;
     font-size: large;
   }
@@ -31,6 +31,6 @@ body {
     color: #3e4c55;
   }
 
-  .h1 {
+  h1, h2 {
     color: #f3f3f3;
   }
