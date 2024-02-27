@@ -5,6 +5,7 @@ p {
 .topnav {
     background-color: #3e4c55;
     overflow: hidden;
+    font-size: large;
   }
   
   .topnav a {
