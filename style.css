@@ -1,8 +1,4 @@
 
-body {
-    background-color: #3e4c55
-}
-
 /* -- Navigation Bar -- */
 
 .topnav {
@@ -59,4 +55,8 @@ h1 {
 
 p {
   color:#ffffff;
+}
+
+body {
+  background-color: #293238
 }
