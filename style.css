@@ -45,10 +45,12 @@ h1 {
 
 .title {
   font-size: xx-large;
+  text-align: center;
 }
 
 .nametitle {
   font-size: x-large;
+  text-align: center;
 }
 
 /* -- Content -- */
@@ -58,10 +60,24 @@ p {
 }
 
 body {
-  background-color: #293238
+  background-color: #293238;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .outcontent {
   color:white;
-  
+  text-align: center;
+  font-size: 25px;
+}
+
+.endusers {
+  color: white;
+  text-align: left;
+  font-size: 25px;
+}
+
+.table {
+  color: white;
+  border: white;
+  border-width: 5px;
 }
