@@ -40,12 +40,19 @@ body {
 
 h2 {
     color: #f3f3f3;
-    float: right;
   }
 
 h1 {
     color: white;
-    float: right;
+    text-align: center;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.nametitle {
+  font-size: x-large;
 }
 
 /* -- Content -- */
