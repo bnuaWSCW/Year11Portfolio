@@ -1,24 +1,23 @@
-p {
-    color:#ffffff
-}
 
 body {
     background-color: #3e4c55
 }
 
+/* -- Navigation Bar -- */
+
 .topnav {
-    background-color: #1d1e1f;
+    background-color: #3e4c55;
     overflow: hidden;
     font-size: large;
   }
   
 .topnav a {
-    float: right;
+    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px 27px;
+    padding: 20px 22px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
   }
   
 .topnav a:hover {
@@ -31,10 +30,26 @@ body {
     color: #3e4c55;
   }
 
+.topnav a.split {
+  float: right;
+  background-color: #3e4c55;
+  color: white;
+}
+
+/* -- Titles -- */
+
 h2 {
     color: #f3f3f3;
+    float: right;
   }
 
 h1 {
     color: white;
+    float: right;
+}
+
+/* -- Content -- */
+
+p {
+  color:#ffffff;
 }
