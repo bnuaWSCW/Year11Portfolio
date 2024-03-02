@@ -16,7 +16,7 @@
     font-size: 25px;
   }
   
-.topnav a:hover {
+.topnav , .split a:hover {
     background-color: #ddd;
     color: #3e4c55;
   }
@@ -49,8 +49,13 @@ h1 {
 }
 
 .nametitle {
-  font-size: x-large;
+  font-size: 30px;
   text-align: center;
+}
+
+.endusertitle {
+  font-size: 30px;
+  text-align: left;
 }
 
 /* -- Content -- */
@@ -64,20 +69,26 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+hr {
+  border-width: 5px;
+}
+
 .outcontent {
   color:white;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .endusers {
   color: white;
   text-align: left;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .table {
   color: white;
   border: white;
   border-width: 5px;
+  font-size: 22px;
+  text-align: center;
 }
