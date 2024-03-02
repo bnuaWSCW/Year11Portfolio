@@ -87,8 +87,8 @@ hr {
 
 .table {
   color: white;
-  border: white;
-  border-width: 5px;
+  border: 7px white;
   font-size: 22px;
   text-align: center;
+  border-collapse: collapse;
 }
