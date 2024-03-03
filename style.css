@@ -86,15 +86,13 @@ hr {
   border: 7px white;
   font-size: 45px;
   text-align: center;
-  border-collapse: collapse;
   border-color: white;
 }
 
-table, tr ,td, ul, li {
+table, tr ,td {
   color: white;
-  border: 7px white;
+  border: 15px white;
   font-size: 45px;
   text-align: center;
-  border-collapse: collapse;
   border-color: white;
 }
