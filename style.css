@@ -20,11 +20,6 @@
     background-color: #ddd;
     color: #3e4c55;
   }
-  
-.topnav a.active {
-    background-color: #f3f3f3;
-    color: #3e4c55;
-  }
 
 .topnav a.split {
   float: right;
