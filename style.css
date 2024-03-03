@@ -87,6 +87,7 @@ hr {
   font-size: 45px;
   text-align: center;
   border-collapse: collapse;
+  border-color: white;
 }
 
 table, tr ,td, ul, li {
@@ -95,4 +96,5 @@ table, tr ,td, ul, li {
   font-size: 45px;
   text-align: center;
   border-collapse: collapse;
+  border-color: white;
 }
