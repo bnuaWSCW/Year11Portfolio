@@ -13,7 +13,7 @@
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 50px;
   }
   
 .topnav a:hover {
@@ -81,6 +81,8 @@ hr {
   font-size: 45px;
 }
 
+/* -- Tables -- */
+
 .table {
   color: white;
   border: 15px white;
@@ -90,11 +92,13 @@ hr {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding: 20px;
 }
 
 table, tr, td {
   border: 10px solid white;
   border-collapse: collapse;
+  padding: 20px;
 }
 
 tr, td {
