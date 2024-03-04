@@ -97,10 +97,10 @@ hr {
 table, tr, td {
   border: 10px solid white;
   border-collapse: collapse;
-  padding: 50px 500px;
+  padding: 50px;
 }
 
 tr, td {
-  padding: 50px 500px;
+  padding: 50px;
   text-align: center;
 }
