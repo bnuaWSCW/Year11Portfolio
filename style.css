@@ -92,16 +92,15 @@ hr {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding: 20px 200px;
 }
 
 table, tr, td {
   border: 10px solid white;
   border-collapse: collapse;
-  padding: 200px;
+  padding: 50px 500px;
 }
 
 tr, td {
-  padding: 200px;
+  padding: 50px 500px;
   text-align: center;
 }
