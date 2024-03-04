@@ -96,3 +96,8 @@ table, tr, td {
   border: 2px solid white;
   border-collapse: collapse;
 }
+
+tr, td {
+  padding: 10px;
+  text-align: center;
+}
