@@ -93,11 +93,11 @@ hr {
 }
 
 table, tr, td {
-  border: 2px solid white;
+  border: 10px solid white;
   border-collapse: collapse;
 }
 
 tr, td {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
