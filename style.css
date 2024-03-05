@@ -27,6 +27,19 @@
   color: white;
 }
 
+.development {
+  background-color: #3e4c55;
+  overflow: hidden;
+  font-size: 50px;
+}
+
+.development a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+
 /* -- Titles -- */
 
 h2 {
