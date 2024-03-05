@@ -120,7 +120,7 @@ tr, td {
 /* Implications and Split Screen */
 
 /* Split the screen in half */
-.split {
+.wsplit {
   position: fixed;
   z-index: 1;
   top: 0;
