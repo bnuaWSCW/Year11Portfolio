@@ -53,6 +53,11 @@ h1 {
   text-align: left;
 }
 
+.implititle {
+  font-size: 40px;
+  text-align: right;
+}
+
 /* -- Content -- */
 
 p {
@@ -81,6 +86,12 @@ hr {
   font-size: 30px;
 }
 
+.implication {
+  color: white;
+  text-align: right;
+  font-size: 30px;
+}
+
 /* -- Tables -- */
 
 .table {
@@ -103,5 +114,39 @@ table, tr, td {
 
 tr, td {
   padding: 50px;
+  text-align: center;
+}
+
+/* Implications and Split Screen */
+
+/* Split the screen in half */
+.split {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+
+.left {
+  left: 0;
+  text-align: center;
+  background-color: white;
+}
+
+
+.right {
+  right: 0;
+  text-align: center;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
