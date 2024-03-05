@@ -28,9 +28,10 @@
 }
 
 .development {
-  background-color: #3e4c55;
   overflow: hidden;
   font-size: 50px;
+  text-align: center;
+  color: white;
 }
 
 .development a {
