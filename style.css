@@ -112,8 +112,7 @@ hr {
   border-color: white;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  padding: 50px, 500px;
+  padding: 50px, 5000px;
 }
 
 table, tr, td {
