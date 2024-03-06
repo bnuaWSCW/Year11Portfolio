@@ -207,3 +207,23 @@ font-size: 30px;
   float: right;
   text-align: center;
 }
+
+#testleft{
+  float: left;
+  width: 33.33%;
+}
+
+#testright {
+  float: right;
+  width: 33.33%;
+}
+
+#testmiddle {
+  width: 33.33%;
+  margin: 0 auto;
+}
+
+.testtitle {
+  text-align: center;
+  font-size: 45px;
+}
