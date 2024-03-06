@@ -1,8 +1,4 @@
 
-.backdrop {
-  background-color: #3e4c55;
-}
-
 /* -- Navigation Bar -- */
 
 .topnav {
@@ -194,3 +190,20 @@ font-size: 30px;
 
 /* - --- - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+#wireframside {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.insertimage {
+  background-color: white;
+  color: #293238;
+  font-size: 30px;
+}
+
+#taskdevelop {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
