@@ -215,7 +215,7 @@ font-size: 30px;
 
 #testright {
   float: right;
-  width: 33.33%;
+  width: 25%;
 }
 
 #testmiddle {
@@ -226,4 +226,8 @@ font-size: 30px;
 .testtitle {
   text-align: center;
   font-size: 45px;
+}
+
+.questions {
+  
 }
