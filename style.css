@@ -42,13 +42,6 @@ transform: translateX(-50%);
 bottom: 30px; 
 }
 
-.development a {
-text-align: center;
-color: white;
-text-decoration: none;
-font-size: 50px;
-}
-
 /* -- Titles -- */
 
 h2 {
