@@ -128,11 +128,9 @@ hr {
 table, tr, td {
   border: solid white;
   border-collapse: collapse;
-  padding: 50px;
 }
 
 tr, td {
-  padding: 50px;
   text-align: center;
 }
 
