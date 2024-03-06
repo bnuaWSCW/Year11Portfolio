@@ -134,7 +134,7 @@ text-align: center;
 }
 .implititle {
 font-size: 45px;
-text-align: left;
+text-align: center;
 }
 
 #aesthetics1 {
@@ -226,8 +226,4 @@ font-size: 30px;
 .testtitle {
   text-align: center;
   font-size: 45px;
-}
-
-.questions {
-  
 }
