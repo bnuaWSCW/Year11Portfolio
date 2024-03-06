@@ -129,9 +129,11 @@ table, tr, td {
   border: solid white;
   border-collapse: collapse;
   width: 1800px;
+  
 }
 
 tr, td {
   text-align: center;
+  height: 30px;
 }
 
