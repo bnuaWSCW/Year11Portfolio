@@ -5,6 +5,10 @@
   background-color: #3e4c55;
   overflow: hidden;
   font-size: large;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .topnav a {
@@ -33,6 +37,9 @@ font-size: 50px;
 text-align: center;
 color: white;
 position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 30px; 
 }
 
 .development a {
