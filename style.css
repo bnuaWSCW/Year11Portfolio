@@ -33,9 +33,6 @@ font-size: 50px;
 text-align: center;
 color: white;
 position: absolute;
-left: 50%; 
-transform: translateX(-50%); 
-bottom: 30px; 
 }
 
 .development a {
