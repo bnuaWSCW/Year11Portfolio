@@ -191,7 +191,7 @@ font-size: 30px;
 /* - --- - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #wireframside {
-  width: 50%;
+  width: 45%;
   float: left;
   text-align: center;
 }
@@ -203,7 +203,7 @@ font-size: 30px;
 }
 
 #taskdevelop {
-  width: 50%;
+  width: 45%;
   float: right;
   text-align: center;
 }
