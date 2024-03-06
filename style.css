@@ -128,6 +128,7 @@ hr {
 table, tr, td {
   border: solid white;
   border-collapse: collapse;
+  width: 400px;
 }
 
 tr, td {
