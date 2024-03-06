@@ -171,3 +171,7 @@ tr, td, th {
   text-align: right;
   font-size: 30px;
 }
+
+.division {
+  width: 100%;
+}
