@@ -145,21 +145,25 @@ tr, td, th {
 #aesthetics1 {
   width: 50%;
   float: right;
+  font-size: 30px;
 }
 
 #widothis1 {
   width: 40%;
   float: left;
+  font-size: 30px;
 }
 
 #widothis2 {
   width: 40%;
   float: right;
+  font-size: 30px;
 }
 
 #function, #usability {
   width: 50%;
   float: left;
+  font-size: 30px;
 }
 
 .aesthetics {
