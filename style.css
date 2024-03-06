@@ -120,13 +120,13 @@ hr {
 
 .table {
   color: white;
-  border: white;
+  border: 15px white;
   font-size: 30px;
   width: 1800px;
 }
 
 table, tr, td {
-  border: solid white;
+  border: 15px solid white;
   border-collapse: collapse;
   width: 1800px;
   
