@@ -129,34 +129,34 @@ tr, td, th {
 /* -- Sections In Implications -- */
 
 .aestitle {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
 }
 .implititle {
-  font-size: 40px;
+  font-size: 45px;
   text-align: left;
 }
 
 #aesthetics1 {
-  width: 40%;
+  width: 45%;
   float: right;
   font-size: 30px;
 }
 
 #widothis1 {
-  width: 40%;
+  width: 45%;
   float: left;
   font-size: 30px;
 }
 
 #widothis2 {
-  width: 40%;
+  width: 45%;
   float: right;
   font-size: 30px;
 }
 
 #function, #usability {
-  width: 40%;
+  width: 45%;
   float: left;
   font-size: 30px;
 }
