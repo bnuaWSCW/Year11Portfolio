@@ -8,7 +8,7 @@
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 30px 32px;
@@ -22,7 +22,7 @@
 }
 
 .topnav a.split {
-float: right;
+float: left;
 background-color: #3e4c55;
 color: white;
 }
