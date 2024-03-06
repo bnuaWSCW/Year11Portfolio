@@ -122,13 +122,13 @@ hr {
   color: white;
   border: white;
   font-size: 30px;
-  width: 2000px;
+  width: 1000px;
 }
 
 table, tr, td {
   border: solid white;
   border-collapse: collapse;
-  width: 2000px;
+  width: 1000px;
 }
 
 tr, td {
