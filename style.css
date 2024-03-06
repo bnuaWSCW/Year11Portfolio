@@ -67,14 +67,7 @@ h1 {
   text-align: left;
 }
 
-.aestitle {
-  font-size: 40px;
-  text-align: right;
-}
-.implititle {
-  font-size: 40px;
-  text-align: left;
-}
+
 
 /* -- Content -- */
 
@@ -110,11 +103,12 @@ hr {
   font-size: 30px;
 }
 
-.aesthetics {
+.rightfloatcontent {
   color: white;
   text-align: right;
   font-size: 30px;
 }
+
 
 /* -- Tables -- */
 
@@ -137,3 +131,39 @@ tr, td, th {
   height: 100px;
 }
 
+/* -- Sections In Implications -- */
+
+.aestitle {
+  font-size: 40px;
+  text-align: right;
+}
+.implititle {
+  font-size: 40px;
+  text-align: left;
+}
+
+#aesthetics1 {
+  width: 50%;
+  float: right;
+}
+
+#widothis1 {
+  width: 40%;
+  float: left;
+}
+
+#widothis2 {
+  width: 40%;
+  float: right;
+}
+
+#function, #usability {
+  width: 50%;
+  float: left;
+}
+
+.aesthetics {
+  color: white;
+  text-align: right;
+  font-size: 30px;
+}
