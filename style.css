@@ -97,11 +97,6 @@ hr {
   font-size: 40px;
 }
 
-.endusers {
-  color: white;
-  text-align: left;
-  font-size: 30px;
-}
 
 .rightfloatcontent {
   color: white;
@@ -135,7 +130,7 @@ tr, td, th {
 
 .aestitle {
   font-size: 40px;
-  text-align: right;
+  text-align: center;
 }
 .implititle {
   font-size: 40px;
@@ -168,10 +163,22 @@ tr, td, th {
 
 .aesthetics {
   color: white;
-  text-align: right;
+  text-align: center;
   font-size: 30px;
 }
 
 .division {
   width: 100%;
+}
+
+.endusers {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+}
+
+.endusers1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
