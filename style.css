@@ -234,5 +234,10 @@ font-size: 30px;
 }
 
 .turnaround {
-  width: 900px
+  width: 900px;
+}
+
+.headimage {
+  width: 65%;
+  height: 75%;
 }
