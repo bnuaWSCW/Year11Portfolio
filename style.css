@@ -67,6 +67,9 @@ font-size: 55px;
 text-align: left;
 }
 
+img {
+  border: 5px solid white;
+}
 
 
 /* -- Content -- */
@@ -138,9 +141,10 @@ text-align: center;
 }
 
 #aesthetics1 {
-width: 45%;
+width: 40%;
 float: right;
 font-size: 30px;
+text-align: center;
 }
 
 #widothis1 {
@@ -234,10 +238,22 @@ font-size: 30px;
 }
 
 .turnaround {
-  width: 900px;
+  width: 700px;
 }
 
 .headimage {
   width: 65%;
   height: 75%;
+}
+
+.headimage1 {
+  width: 85%;
+}
+
+.runanima {
+  width: 75%;
+}
+
+.runanima1 {
+  width: 95%;
 }
