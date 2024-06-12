@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2 Portfolio</title>
+    <title>Project 2 Python Hangman Minigame</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -20,7 +20,7 @@
 <!-- ***** Title ***** -->
 
     <br>
-    <h1 class="title">Project 2</h1>
+    <h1 class="title">Hangman Python Game</h1>
     <br>
     <br>
     <br>
@@ -32,7 +32,10 @@
 
     <h2 class="nametitle">Overview</h2>
     <div class="outcontent">
-        <p>Ub areas with seasonal climate, wood produced at different times of the year ma ya ltnerat elight and dar krings. In tempreate climates, and tropical cliamtes with wet-dr yseaona cliamte, wood produced at idffernet times of the yearm a ya ltnerat leight nad dark rings. In tempreate cliamtes, and tropical cliamte withw et-d In areas with seasonal climate, wood produced at different times of the year ma ya ltenat elight and dark rings. I ntepmeate climates, and tropical cliamtes with wet-dr yseasona lcliamte, wood produed at differnet itmes ofh tey amr ya latne laight nad dark irngs.in
+        <p>
+            This python created hangman mini is my second project of 2024 - showing what I have done in term two in 11DGT. 
+            This includes a hangman drawing, introductions, outros, functions and comments in the python language. 
+            My intended end users are children - design considerations and development are included.
         </p>
         <hr>
     </div>
@@ -41,10 +44,17 @@
 
     <h2 class="endusertitle">End-Users</h2>
     <div class="endusers">
-        <p>Ub areas with seasonal climate, wood produced at different times of the year ma ya ltnerat elight and dar krings. In tempreate climates, and tropical cliamtes with wet-dr yseaona cliamte, wood produced at idffernet times of the yearm a ya ltnerat leight nad dark rings. In tempreate cliamtes, and tropical cliamte withw et-d In areas with seasonal climate, wood produced at different times of the year ma ya ltenat elight and dark rings. I ntepmeate climates, and tropical cliamtes with wet-dr yseasona lcliamte, wood produed at differnet itmes ofh tey amr ya latne laight nad dark irngs.in
+        <p>
+            My end users for my hangman minigame are prominently primary children from ages 5 to 11. A word guessing game like hangman where you have to guess specific letters and words can help children get more of a grasp of literature and english, and can help them with understanding their school work. According to FasterCapital, hangman can help improve vocabulary and spelling, help learn new words and meanings, and can help grammar skills. Because of its major and important benefits to children, it is crucial that we are able to cater towards them and their interest in the game. 
+            To do this, we can look at what they like at their age. Childrens’ brains are scientifically more emotionally sensitive than adults - making the game easy to understand is crucial for their attention span. 
+            We can address this by using childish vocabulary, using personal pronouns, congratulating successful guesses, encouraging the user when there are unsuccessful guesses, and continuously cheering them on. Through this, our end users may find it emotionally pleasing, and will benefit from playing the game. We can also cater towards my end users from the presentability of the game as a whole. An actual drawing of the hangman getting drawn can intrigue the children more to complete the game, and does cater towards their sensitive emotions. 
+            Other minor things such as clear spacing between sentences and clear instructions and rules can stop my end users from being confused on what to do, and does somewhat cover their emotional sensitivity. Finally, asking if they would like to play may seem unrelated to the enjoyability of end users, but can give efficiency to the playability of the game to the end users.
+            Constantly ending the run than starting the code back up may seem repetitive, and does not cater towards my end users. Typing in a play again function can ease the possibility of boredom, and does genuinely have some sort of part to play in the enjoyment of my group's game.
         </p>
-        <p>Ub areas with seasonal climate, wood produced at different times of the year ma ya ltnerat elight and dar krings. In tempreate climates, and tropical cliamtes with wet-dr yseaona cliamte, wood produced at idffernet times of the yearm a ya ltnerat leight nad dark rings. In tempreate cliamtes, and tropical cliamte withw et-d In areas with seasonal climate, wood produced at different times of the year ma ya ltenat elight and dark rings. I ntepmeate climates, and tropical cliamtes with wet-dr yseasona lcliamte, wood produed at differnet itmes ofh tey amr ya latne laight nad dark irngs.in
+        <p>
+            Overall, childish vocabulary, using personal pronouns, congratulating successful guesses, encouraging the user, cheering the end users on, having a drawing of the hangman, clear and readable spacing between sentences, having clear instructions and rules and having a play again function are all including(but not limited to) specifications that cater towards my end users, and the success of my groups minigame depends on these specifications being upheld.
         </p>
+        <p>Other general specifications and implications such as functionality and aesthetics are things that also cater towards my end users, all will be addressed down below.</p>
         <hr>
     </div>
 
@@ -55,38 +65,128 @@
     <div class="table">
         <table class="table">
             <tr>
-                <th>Requirement 1</th>
+                <th>Unknown Word</th>
                 <td>
                     <ul>
-                        <li>details</li>
-                        <li>details</li>
+                        <li>Displaying correct letters in the correct order.</li>
+                        <li>Filler characters displayed in remaining unguessed letters</li>
+                        <li>Limited to a 5 letter word.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
-                <th>Requirement 2</th>
+                <th>Allocated Chances</th>
                 <td>
                     <ul>
-                        <li>details</li>
-                        <li>details</li>
+                        <li>Remind the participant the chances they have left.</li>
+                        <li>Showcases incorrect letters.</li>
+                        <li>Showcasing the chances left when the guess is incorrect.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
-                <th>Requirement 3</th>
+                <th>Letters</th>
                 <td>
                     <ul>
-                        <li>details</li>
-                        <li>details</li>
+                        <li>Displaying what letters have been used.</li>
+                        <li>Displaying all letters in the alphabet.
+                        </li>
+                        <li>Separating the correct letters from the already guessed letters clearly.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
-                <th>Requirement 4</th>
+                <th>Hangman Drawing</th>
                 <td>
                     <ul>
-                        <li>details</li>
-                        <li>details chair classroom</li>
+                        <li>An additional line to draw every time a guess is incorrect.</li>
+                        <li>Is presentable and perceivable - basically, they know it looks like a hangman being drawn.</li>
+                        <li>Is in accordance to my end users(easy going, childish)</li>
+                        <li>Is drawn correctly.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Instructions And Rules</th>
+                <td>
+                    <ul>
+                        <li>Demonstrates the rules and instructions clearly.</li>
+                        <li>Easy to read vocabulary.</li>
+                        <li>Displayed at the start of the game.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Introduction</th>
+                <td>
+                    <ul>
+                        <li>Asks for their name.</li>
+                        <li>Introduces the game and what is about(clearly stated, easy to read)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Guesses</th>
+                    <ul>
+                        <li>Incorrect</li>
+                        <li>Correct</li>
+                    </ul>
+                <td>
+                    <ul>
+                        <li>Incorrect</li>
+                        <ul>
+                            <li>Displays how many chances they have left.</li>
+                            <li>Adds another line to the hangman</li>
+                            <li>Encourages the user to keep on going.</li>
+                        </ul>
+                        <li>Correct</li>
+                        <ul>
+                            <li>Displays how many chances they have left.</li>
+                            <li>Adds a letter to the word</li>
+                            <li>Congratulations to them on the correct guess.</li>
+                        </ul>
+                        <li>Displays the guessed letters.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Win Outro</th>
+                <td>
+                    <ul>
+                        <li>Play again function</li>
+                        <li>Congratulates the user.</li>
+                        <li>Equal spacing, vocabulary, etc. </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Lose Outro</th>
+                <td>
+                    <ul>
+                        <li>Play again function</li>
+                        <li>Encourages the user to play again</li>
+                        <li>Equal spacing, vocabulary, etc. </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Equal Spacing</th>
+                <td>
+                    <ul>
+                        <li>The drawing has equal spacing in accordance to its aesthetics.</li>
+                        <li>The drawing is presentable and perceivable </li>
+                        <li>Sentences, instructions and rules displayed are easy to read and are not clustered together.</li>
+                        <li>Introduction has equal spacing in between topics or sentences, but is not limited to simply equal spacing. Spacing to make the sentence easier to read.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Easy To Read Vocabulary</th>
+                <td>
+                    <ul>
+                        <li>The 5 letter word is age appropriate for my end users.</li>
+                        <li>The instructions are clear in relation to my end users.</li>
+                        <li>Introduction and outro is easy to read with respective vocabulary.</li>
                     </ul>
                 </td>
             </tr>
@@ -103,16 +203,17 @@
 
     <div id="aesthetics1">
         <h2 class="aestitle">Aesthetics</h2>
-        <p class="aesthetics">In areas with seasonal climate, wood produced at different times of the year may alternat elight and dar krings. In temperate climates, and tropical climates wiht wet-dry seasonal climate, wood produced at different times of the year ma yal tnerate light and dark rings. In temperatec cliamte, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year ma ya ltnerat elight and dark rings. In tempreate
-        </p>
+        <p class="aesthetics">Aesthetics is about making the outcome look and feel good - especially to cater towards my end users.
+            </p>
     </div>
     <div id="widothis1">
         <h2 class="implititle">I will Do This By:</h2>
         <ul class="endusers1">
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
+            <li>Using an easy to read font.</li>
+            <li>Potentially using colors to draw attention from my end users.</li>
+            <li>Taking in consideration my end users - aesthetics can mean using easy to read vocabulary and equal/realistic spacing.</li>
+            <li>Using clear, simple and understandable instructions and rules.</li>
+            <li>Taking into account functionality - its functionality and usability has a part in aesthetics. Making sure that functionality and usability is a fundamental part of aesthetics, and should be taken into consideration.</li>
         </ul>
     </div>
 
@@ -126,16 +227,23 @@
 
     <div id="widothis1">
         <h2 class="implititle">Functionality</h2>
-        <p class="endusers1">In areas with seasonal climate, wood produced at different times of the year may alternat elight and dar krings. In temperate climates, and tropical climates wiht wet-dry seasonal climate, wood produced at different times of the year ma yal tnerate light and dark rings. In temperatec cliamte, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year ma ya ltnerat elight and dark rings. In tempreate
+        <p class="endusers1">
+            Functionality is about making the outcome function correctly as intended. This can include correctly used code and an intentional outcome.
         </p>
     </div>
     <div id="aesthetics1">
         <h2 class="aestitle">I Will Do This By:</h2>
         <ul class="aesthetics">
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
+            <li>Using comments to organize my code, making it easier to understand and fix potential errors.</li>
+            <li>Checking over the code to make sure the code is working correctly.</li>
+            <li>Testing and practicing with the code to see its functionality.</li>
+            <li>Intentionally finding potential errors when testing the code.</li>
+            <li>Talking with peers in my group to see any details missed.</li>
+            <li>Chances are taken off only when the guess is incorrect.</li>
+            <li>The drawing works and displays according to the incorrect letters.
+            </li>
+            <li>Incorrect words and correct words displayed correctly.
+            </li>
         </ul>
     </div>
 
@@ -148,17 +256,17 @@
     <br>
 
     <div id="widothis1">
-        <h2 class="implititle">Usability</h2>
-        <p class="endusers1">In areas with seasonal climate, wood produced at different times of the year may alternat elight and dar krings. In temperate climates, and tropical climates wiht wet-dry seasonal climate, wood produced at different times of the year ma yal tnerate light and dark rings. In temperatec cliamte, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year ma ya ltnerat elight and dark rings. In tempreate
+        <h2 class="implititle">Future Proofing</h2>
+        <p class="endusers1">Future Proofing is about making sure the code/program is sustainable. It is able to be used comfortably and efficiently in the future, and doesn’t need to be extensively changed to fit future programs and/or ideas.
         </p>
     </div>
     <div id="aesthetics1">
         <h2 class="aestitle">I Will Do This By:</h2>
         <ul class="aesthetics">
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
-            <li>imes of the year may alternat elight and dar krings. In temperate climates, and tropical climate</li>
+            <li>Using comments to organize my code, making it easier to understand.</li>
+            <li>Using lists. When we used lists in our python practice quiz, lists were used to change or add information more easily. Using lists in this way can future proof our code.</li>
+            <li>Structuring the code into lists, main code and functions can make the code easier to understand. Putting a random function in the middle of the main code can confuse other programmers using our code - structuring the code can prevent this.</li>
+           
         </ul>
     </div>
 
