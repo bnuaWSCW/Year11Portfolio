@@ -22,7 +22,7 @@
 <!-- ***** Task Development ***** -->
 
     <div id="wireframside">
-        <h2 class="nametitle"> 1. Wire Framing</h2>
+        <h2 class="nametitle"> 1. Displaying Hangman Guess, Filler Spaces and Correct/Incorrect Guesses</h2>
         <br>
         <p class="insertimage">INSERT IMAGE</p>
         <br class="insertimage">
@@ -33,15 +33,12 @@
 
     <div id="taskdevelop">
         <h2 class="nametitle">Task Development</h2>
-        <p class="endusers1">in areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In temperate climates, and tropical climates with wet-dr yseasona lclimate, woodp roduced at differet times of they earm ya ltneatleightn ad dakr ings. In areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In teperate climates, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year may altnerat elight nad dark rings.
+        <p class="endusers1">In this task, I have been working on displaying respondents guess in the hangman game, filler spaces(unknown letters of the word that the respondent has not guess), and correct/incorrect guesses for the players to see. Through displaying each function in the game is easy,
+            but the coding behind it will include while loops, putting guesses in lists and if statements.
         </p>
     </div>
 
     <div style="clear: both;"></div>
-    <p class="endusers1">In areas with seasonal climate, wood proudced at different times of the year may alternate light and dark rings. In temperate climates,in areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In temperate climates, and tropical climates with wet-dr yseasona lclimate, woodp roduced at differet times of they earm ya ltneatleightn ad dakr ings. In areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In temperate climates, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year may alternate light and dark rings.
-    </p>
-    <p class="insertimage" style="width: 25%; text-align: center;">INSERT IMAGE/LINK</p>
-    <p class="insertimage" style="width: 25%; text-align: center;">INSERT IMAGE/LINK</p>
 
     <br>
     <hr>
@@ -52,51 +49,98 @@
     <h2 class="nametitle">Testing</h2>
     <br>
     <hr>
-    <div id="testleft">
-        <h2 class="testtitle">Input</h2>
-        <br>
-        <br>
-        <p class="testtitle">X</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p class="testtitle">Y</p>
+    <div class="table">
+        <table class="table">
+            <tr>
+                <th>Input</th>
+                <th>
+                    Expectation
+                </th>
+                <th>Output</th>
+            </tr>
+            <tr>
+
+                <td>
+                    N/A
+                </td>
+
+                <td>
+                    This input is to check if the while loop works and tells the player to guess again. 
+                </td>
+
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput1.PNG" alt="Turn Around Drawing"> 
+                    <p>It works accordingly.</p>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    jk
+                </td>
+                <td>
+                    This input is to check if the while loop and the if statement works when guessing more than one letter.
+                </td>
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput2.PNG" alt="Turn Around Drawing"> 
+                    <p>If statement works accordingly and loops around.</p>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    *space*
+                </td>
+                <td>
+                    Because of the way I have coded this, a single space is able to go past the code because it is being recognised as 1 character. I put a separate code so that 1 character is able to go by. This is to check that a single space can be blocked out of leaving the line of code.
+                </td>
+
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput3.PNG" alt="Turn Around Drawing"> 
+                    Works accordingly.
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    1
+                </td>
+                <td>
+                    By using an if statement, it should loop back, saying that there are no numbers in the word.
+                </td>
+                <td>I do not have a screenshot to show the results, but the code broke when typing in a string/letter. The integer input worked, except at the cost of the whole code</td>
+            </tr>
+            <tr>
+
+                <td>
+                    "1" and "a"
+                </td>
+                <td>
+                    Instead of using an if statement, I am now using try and except to check if it is an integer. Through try and except being able to continue without breaking, it should work and repeat the loop.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput4.PNG" alt="Turn Around Drawing"> 
+                    <p>Though it works as intended, it went through all if statements and was included in the list</p>
+                    <img class="turnaround" src="test_input_pictures/testinput5.PNG" alt="Turn Around Drawing"> 
+                    <p>Works accordingly.</p>
+                </td>
+                <td>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        </table>
     </div>
-
-
-    <div id="testright">
-        <h2 class="testtitle">Output</h2>
-        <br>
-        <br>
-        <br>
-        <p class="insertimage" style="text-align: center;">INSERT IMAGE</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p class="insertimage" style="text-align: center;">INSERT IMAGE</p>
-    </div>
-
-
-    <div id="testmiddle">
-        <h2 class="testtitle">Expectation</h2>
-        <br>
-        <p class="testtitle">Recognizes the prompt. See's no problems with the prompt - proceeds accordingly</p>
-        <br>
-        <p class="testtitle">Recognizes the prompt. See's no problems with the prompt - proceeds accordingly</p>
-    </div>
-
-    <div style="clear: both;"></div>
     
 <!-- ***** Feedback ***** -->
 
