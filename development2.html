@@ -230,6 +230,219 @@
     <hr>
     <br>
     <br>
+
+
+    <!-- ***** Task Development ***** -->
+
+    <div id="wireframside">
+        <h2 class="nametitle"> 1. Game Process(guessing function)</h2>
+        <br>
+        <p class="insertimage">INSERT IMAGE</p>
+        <br class="insertimage">
+        <p class="insertimage">INSERT IMAGE</p>
+        <br>
+        <p class="insertimage">INSERT IMAGE</p>
+    </div>
+
+    <div id="taskdevelop">
+        <h2 class="nametitle">Task Development</h2>
+        <p class="endusers1">In this task, I have been working on the guess function in the game. This includes making sure the guess is one letter, is actually a letter, and if the letter has already been guessed. This does not include correct/incorrect guesses.
+        </p>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <br>
+    <hr>
+    <br>
+
+<!-- ***** Testing ***** -->
+
+    <h2 class="nametitle">Testing</h2>
+    <br>
+    <hr>
+    <div class="table">
+        <table class="table">
+            <tr>
+                <th>Input</th>
+                <th>
+                    Expectation
+                </th>
+                <th>Output</th>
+            </tr>
+            <tr>
+
+                <td>
+                    N/A
+                </td>
+
+                <td>
+                    This input is to check if the while loop works and tells the player to guess again. 
+                </td>
+
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput1.PNG" alt="Test Drawing"> 
+                    <p>It works accordingly.</p>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    jk
+                </td>
+                <td>
+                    This input is to check if the while loop and the if statement works when guessing more than one letter.
+                </td>
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput2.PNG" alt="Test Drawing"> 
+                    <p>If statement works accordingly and loops around.</p>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    *space*
+                </td>
+                <td>
+                    Because of the way I have coded this, a single space is able to go past the code because it is being recognised as 1 character. I put a separate code so that 1 character is able to go by. This is to check that a single space can be blocked out of leaving the line of code.
+                </td>
+
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput3.PNG" alt="Test Drawing"> 
+                    Works accordingly.
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    1
+                </td>
+                <td>
+                    By using an if statement, it should loop back, saying that there are no numbers in the word.
+                </td>
+                <td>I do not have a screenshot to show the results, but the code broke when typing in a string/letter. The integer input worked, except at the cost of the whole code</td>
+            </tr>
+            <tr>
+
+                <td>
+                    "1" and "a"
+                </td>
+                <td>
+                    Instead of using an if statement, I am now using try and except to check if it is an integer. Through try and except being able to continue without breaking, it should work and repeat the loop.
+                </td>
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput4.PNG" alt="Test Drawing"> 
+                    <p>Though it works as intended, it went through all if statements and was included in the list</p>
+                    <img class="turnaround" src="test_input_pictures/testinput5.PNG" alt="Test Drawing"> 
+                    <p>Works accordingly.</p>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    "1" and "a"
+                </td>
+                <td>
+                    This is the same input, but I've looked up a line of code: isalpha(). This checks if the input is in the alphabet. I was stuck on the implementation of integers in the list, so I looked up isalpha to fix the code. I expect after typing in "1", it shouldn't break because of try and except and it will not add the 1 into the list. After entering in "a", it should add it to the list and repeat the question.
+                </td>
+
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput6.PNG" alt="Test Drawing"> 
+                    <p>Works accordingly(surprisingly)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    "j" and "j"
+                </td>
+                <td>
+                    After checking every possible input, I realised that my elif statement checking if the guessed letter is in the list is at the bottom, meaning it has less priority. For this, I moved it up even into another if statement to make sure there is not repitition.
+                </td>
+                <td>
+                    <img class="turnaround" src="test_input_pictures/testinput7.PNG" alt="Test Drawing"> 
+                    <p>Works accordingly(though looks messy)</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+<!-- ***** Feedback ***** -->
+
+    <br>
+    <hr>
+    <br>
+    <h2 class="nametitle">Feedback</h2>
+    <br>
+    <hr>
+    <br>
+    <h2 class="questions"><b><u>Do you think the layout was easy on the eyes? Did you follow the information easy?</u></b></h2>
+    <br>
+    <p class="endusers1"><i>"Quote"</i></p>
+    <br>
+    <h2 class="questions"><b><u>What don't you like about how the layout looks?</u></b></h2>
+    <br>
+    <p class="endusers1"><i>"Quote"</i></p>
+    <br>
+    <hr>
+    <br>
+
+<!-- ***** Improvements ***** -->
+    <h2 class="nametitle">Improvements</h2>
+    <br>
+    <hr>
+    <br>
+    <div id="wireframside">
+        <p class="endusers1">in areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In temperate climates, and tropical climates with wet-dr yseasona lclimate, woodp roduced at differet times of they earm ya ltneatleightn ad dakr ings. In areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In teperate climates, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year may altnerat elight nad dark rings.
+        </p>
+        <br>
+        <br>
+        <p class="endusers1">in areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In temperate climates, and tropical climates with wet-dr yseasona lclimate, woodp roduced at differet times of they earm ya ltneatleightn ad dakr ings. In areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In teperate climates, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year may altnerat elight nad dark rings.
+        </p>
+    </div>
+
+    <div id="taskdevelop">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="insertimage">INSERT IMAGE</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="insertimage">INSERT IMAGE</p>
+    </div>
+
+<!-- ***** ALL OF THE BR'S WILL BE GONE.... it's just because there is no image to fill in the text ***** -->
+
+    <div style="clear: both;"></div>
+
+    <br>
+    <br>
+    <p class="endusers1">in areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In temperate climates, and tropical climates with wet-dr yseasona lclimate, woodp roduced at differet times of they earm ya ltneatleightn ad dakr ings. In areas with seasonal climate, wood produced at different times of the year may alternate light and dark rings. In teperate climates, and tropical climates with wet-dry seasonal climate, wood produced at different times of the year may altnerat elight nad dark rings.
+    </p>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
     <h2 class="nametitle"><a href="index.html" class="development" style="text-align: center; font-size: 70px;">Home</a>
     </h2>
     
