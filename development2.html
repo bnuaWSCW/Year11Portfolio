@@ -105,6 +105,7 @@
 
                 <td>
                     <img class="turnaround" src="test_input_pictures/testinput3.PNG" alt="Test Drawing"> 
+                    <br>
                     Works accordingly.
                 </td>
             </tr>
@@ -139,7 +140,7 @@
                     "1" and "a"
                 </td>
                 <td>
-                    This is the same input, but I've looked up a line of code: isalpha(). This checks if the input is in the alphabet. I was stuck on the implementation of integers in the list, so I looked up isalpha to fix the code. I expect after typing in "1", it shouldn't break because of try and except and it will not add the 1 into the list. After entering in "a", it should add it to the list and repeat the question.
+                    This is the same input, but I've looked up a line of code: isalpha(). This checks if the input is in the alphabet. I was stuck on the implementation of integers in the list, so I looked up isalpha to fix the code. After typing in "1", it shouldn't break because of try and except and it will not add the 1 into the list. After entering in "a", it should add it to the list and repeat the question.
                 </td>
 
                 <td>
@@ -152,7 +153,7 @@
                     "j" and "j"
                 </td>
                 <td>
-                    After checking every possible input, I realised that my elif statement checking if the guessed letter is in the list is at the bottom, meaning it has less priority. For this, I moved it up even into another if statement to make sure there is not repitition.
+                    After checking every possible input, I realised that my elif statement checking if the guessed letter is in the list is at the bottom, meaning it has less priority. For this, I moved it up even into another if statement to make sure there is no repitition.
                 </td>
                 <td>
                     <img class="turnaround" src="test_input_pictures/testinput7.PNG" alt="Test Drawing"> 
@@ -199,17 +200,16 @@
         <p class="endusers1">There are numerous improvements I did to the hangman game from the feedback I got. 
             From the feedback, I saw that the players could not see their guessed letters, what the word was in the end and their actual chances left before failure.
         </p>
-        <br>
         <p class="endusers1">In terms of improving everything my feedback mentions, I have done some things and missed out on others. 
             Although we have a miniture picture of a hangman in the game, we cannot add pictures to the game. 
             This is becuase of my ability to code pictures in, and is generally unrelated to the hangman game. 
-            Additionally because of the feedback given, I had added both a lives left counter and a list of all the guess words.
-             This was to ensure players aren't confused with what letters they've used and what they haven't used. 
-             Additionally, I spaced out not only the guessing functions, but most of the games clustered sentences. An example can be the losing message being too clustered.
+            Additionally because of the feedback given, I had added both a lives left counter and a list of all the guess words. 
+            This was to ensure players aren't confused with what letters they've used and what they haven't used.  
+            Additionally, I spaced out not only the guessing functions, but most of the games clustered sentences. An example can be the losing message being too clustered.
         </p>
         <p class="endusers1">In terms of adding in additional lines of code to accomodate multiple lettered guesses, it would be challenging as a new learner to get past certain if or elif statements. 
             Additionally, single lettered guesses promote authenticity - having true results and true wins for players actually trying to win. 
-            Adding in a line of code that bypasses multiple letter guesses can deminish the game if they were to guess the whole alphabet with one guess. This line of code promote validity and true results when playing.</p>
+            Adding in a line of code that bypasses multiple letter guesses can deminish the game if they were to guess the whole alphabet with one guess. This line of code promotes validity and true results when playing.</p>
         <br>
         <img class="turnaround" src="test_input_pictures/Improvements/improvement4.png" alt="Development Pictures"> 
 
@@ -331,7 +331,7 @@
                     For this test, I'll be testing if the filler words work and the correct letter is in the correct spot. I used Google and had Medy to help me with this particular line of code. What I understand of the code is that: for 5 times(going down 4, 3, 2, 1, 0), it will check if guess is correct. If guess is correct in atleast one spot, it will set placeholdlist(which is a list of "_") to that set number and set that particular underscore in the list to that guessed letter. 
                     Afterwhich it will print the whole of placeholdlist.
                     <br>
-                    There were many problems and challenges within making this particular part of the code, at some times I replaced for i range(5) with 5 separate variables set to if statements if the guess one of the 5 variables. With Medy and online help, I was able to use this code.
+                    There were many problems and challenges within making this particular part of the code, at some times I replaced for i in range(5) with 5 separate variables set to if statements if the guess one of the 5 variables. With Medy and online help, I was able to use this code.
                     <img class="turnaround" src="test_input_pictures/test_input_pictures2/testinput1D.png" alt="Test Drawing">
                     <br>This was added onto if guess in differentword.
                 </td>
@@ -347,7 +347,7 @@
                     q
                 </td>
                 <td>
-                    This input is to ensure the hangman drawing is displayed when the player inputs in an incorrect guess. Arlo - another peer from my group - had already done the hangman drawings using if statements and underscores. I simply indented the lines of code into the while lives > 0 loop(not the forever while True loop). This should comply with the incorrect guess and display accordingly.
+                    This input is to ensure the hangman drawing is displayed when the player inputs in an incorrect guess. Arlo - another peer from my group - had already done the hangman drawings using if statements and underscores. I simply indented the lines of code into the while lives > 0 loop(not the forever while True loop that is responsible for the game process function). This should comply with the incorrect guess and display accordingly.
                 </td>
                 <td>
                     <img class="turnaround" src="test_input_pictures/test_input_pictures2/testinput1F.png" alt="Test Drawing">
@@ -418,7 +418,7 @@
     <br>
     <div id="wireframside">
         <br>
-        <p class="endusers1">For my improvements when keeping in mind the feedback that I've been given, I have first implemented more in the vocabulary around the game. When incorrect guesses are made, I made a simple hint for using vowels first. Additionally, I have implemented and imporved more sentences in the game process function - ensuring better engagement with the players, especially our end-users. In terms of the spacing around the game, I have implemented new lines respectively around the whole game, including the starting and ending functions.
+        <p class="endusers1">For my improvements when keeping in mind the feedback that I've been given, I have first implemented more in the vocabulary around the game. When incorrect guesses are made, I made a simple hint for using vowels first. Additionally, I have implemented and improved more sentences in the game process function - ensuring better engagement with the players, especially our end-users. In terms of the spacing around the game, I have implemented new lines respectively around the whole game, including the starting and ending functions.
         </p>
         <br>
         <br>
@@ -445,6 +445,31 @@
 <!-- ***** ALL OF THE BR'S WILL BE GONE.... it's just because there is no image to fill in the text ***** -->
 
     <div style="clear: both;"></div>
+
+    <br>
+    <hr>
+    <br>
+    <h2 class="nametitle">Final Code</h2>
+    <br>
+    <hr>
+    <br>
+    <div id="wireframside">
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode1.PNG" alt="Final Code Screenshot">
+        <br>
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode2.PNG" alt="Final Code Screenshot">
+        <br>
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode3.PNG" alt="Final Code Screenshot">
+        <br>
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode4.PNG" alt="Final Code Screenshot">
+    </div>
+    <div id="turnaround">
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode5.PNG" alt="Final Code Screenshot">
+        <br>
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode6.PNG" alt="Final Code Screenshot">
+        <br>
+        <img class="turnaround" src="test_input_pictures/Development2/finalcode7.PNG" alt="Final Code Screenshot">
+    </div>
+
 
     <br>
     <br>
